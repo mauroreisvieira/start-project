@@ -1,0 +1,13 @@
+# Folders
+node_modules/
+dist
+
+# Files
+.DS_Store
+Thumbs.db
+npm-debug.log
+package-lock.json
+
+# Editor Configuration
+*.sublime-*
+vscode

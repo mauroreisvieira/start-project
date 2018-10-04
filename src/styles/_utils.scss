@@ -1,0 +1,106 @@
+// Defining baseline
+$baseLine: 6px;
+
+// Defining font size default
+$fontSizeDefault: 16px;
+
+// Defining baseline line height
+$lineHeight: 26px;
+
+// Defining border radius
+$borderRadius: 4px;
+
+// Header
+$topBarHeight: $baseLine * 12;
+
+// Rooms
+$roomsWidth: 66px;
+
+// Defining breakpoints
+$xSmall: 280px;
+$small: 480px;
+$medium: 620px;
+$wide: 800px;
+$huge: 1600px;
+$smallContainer: 576px;
+$mediumContainer: 688px;
+$wideContainer: 864px;
+$hugeContainer: 100%;
+
+// Defining grid sizes
+$mediumColCount: 3;
+$mediumColWidth: 30.3%;
+$mediumGutterWidth: 4.5%;
+$wideColCount: 4;
+$wideColWidth: 22.2%;
+$wideGutterWidth: 3.7%;
+
+// Defining colors
+$colorAqua: #6DCCB6;
+$colorBlue: #3372df;
+$colorBlueSecondary: lighten($colorBlue, 30%);
+$colorGreen: #0f9d58;
+$colorGreenSecondary: lighten($colorGreen, 30%);
+$colorRed: #cb4437;
+$colorRedSecondary: lighten($colorRed, 30%);
+$colorYellow: #f4b400;
+$colorYellowSecondary: lighten($colorYellow, 20%);
+$colorViolet: #6747CD;
+
+$colorRemember: #09829a;
+$colorLearning: #da2e75;
+
+$colorChatContentMySelf: #5ba1f8;
+$colorChatContent: #eff0f0;
+
+$colorChatButton: #85C8C5;
+
+$colorGrayBackground: #f0f0f0;
+$colorGrayKeyline: #e0e0e0;
+$colorGray: #737373;
+$colorGrayDark: #404040;
+
+$colorText: $colorGrayDark;
+$colorHighlight: $colorBlue;
+$colorWarning: $colorYellowSecondary;
+$colorMuted: $colorGray;
+$colorDanger: $colorRed;
+
+$colorLayouts: #297ea9;
+$colorLayoutsSecondary: lighten($colorLayouts, 30%);
+$colorUser: #2c8566;
+$colorUserSecondary: lighten($colorUser, 30%);
+$colorMedia: #cf423a;
+$colorMediaSecondary: lighten($colorMedia, 30%);
+$colorPerformance: #7b5294;
+$colorPerformanceSecondary: lighten($colorPerformance, 30%);
+
+$colorUserOnline: #40c77a;
+$colorUserOffline: #e25858;
+
+// Defining font family
+$fontDefault: Helvetica, Arial, sans-serif;
+$fontHighlight: "Roboto Condensed", Helvetica, sans-serif;
+$fontIcon: "icons";
+
+// Defining font sizes
+$fontXSmall: calculateRem(11px);
+$fontSmall: calculateRem(14px);
+$fontBase: calculateRem(16px);
+$fontMedium: calculateRem(22px);
+$fontLarge: calculateRem(28px);
+$fontXLarge: calculateRem(44px);
+$fontXXLarge: calculateRem(72px);
+$fontHuge: calculateRem(86px);
+
+// Defining font weight
+$fontLight: 300;
+$fontRegular: 400;
+$fontBold: 700;
+$fontSemiBold: 900;
+
+// Defining animation easings
+$animationEasing: cubic-bezier(0.455, 0.030, 0.515, 0.955);
+
+// Defining sidebar stuff
+$sidebarWidth: 280px;
